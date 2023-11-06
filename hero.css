@@ -1,0 +1,60 @@
+.hero-section{
+    height: 380px;
+    display: flex;
+    justify-content: center;
+}
+/* .hero-area{
+    height: 800px;
+    display: flex;
+} */
+.hero{
+    display: flex;
+    height: 380px;
+    width: 100%;
+    background-size: cover;
+    position: absolute;
+}
+.hero-message{
+    display: flex;
+    position: relative;
+    height: 40px;
+    width: 95%;
+    background-color: white;
+    justify-content:center;
+    align-items: center;
+    font-size: 0.85rem; 
+    margin-top: 300px;
+}
+.hero-message a{
+    color: #007185;
+}
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+}
+.deals{
+    margin-left: 25px;
+}
+.box{
+    background-color: white ;
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    width: 350px; 
+    height: 350px;     
+}
+.image-space{
+    height: 250px;
+    width: 300px;
+    align-self: center;
+}
+.image{
+    height:98%;
+    width:98%;
+}
+.shop{
+    margin-left: 25px;
+    margin-top: 10px;
+    color: #007185;
+}
+
